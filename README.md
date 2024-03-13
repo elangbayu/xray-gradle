@@ -33,6 +33,7 @@ plugins {
 XRAY_URL="https://your-xray-provider-server.com"
 XRAY_CLIENT_ID="YOUR_XRAY_CLIENT_ID"
 XRAY_CLIENT_SECRET="YOUR_XRAY_CLIENT_SECRET"
+XRAY_PROJECT_KEY="YOUR_JIRA_PROJECT_KEY"
 ```
 
 ## Usage
