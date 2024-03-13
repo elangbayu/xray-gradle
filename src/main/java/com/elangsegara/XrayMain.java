@@ -115,7 +115,7 @@ public class XrayMain {
                         RequestBody.create(file, MediaType.parse("text/plain")))
                 .build();
         Request request = new Request.Builder()
-                .url(XRAY_URL + "/import/feature?projectKey=ATI")
+                .url(XRAY_URL + "/import/feature?projectKey=" + env.get("XRAY_PROJECT_KEY"))
                 .header("Content-Type", "multipart/form-data")
                 .header("Authorization", "Bearer " + token)
                 .post(requestBody)
