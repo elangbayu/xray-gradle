@@ -23,7 +23,7 @@ To use the XRAY Gradle Plugin in your project, follow these steps:
 
 ```groovy
 plugins {
-    id 'xray-gradle' version '1.1.0'
+  id("io.github.elangbayu.xray-gradle") version "1.2.0"
 }
 ```
 
