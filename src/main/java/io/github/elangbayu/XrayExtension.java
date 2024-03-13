@@ -1,4 +1,4 @@
-package com.elangsegara;
+package io.github.elangbayu;
 
 /**
  * Extension class for configuring the XRAY Gradle Plugin.

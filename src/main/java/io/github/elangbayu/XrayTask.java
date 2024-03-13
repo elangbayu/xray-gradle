@@ -1,4 +1,4 @@
-package com.elangsegara;
+package io.github.elangbayu;
 
 import org.gradle.api.DefaultTask;
 import org.gradle.api.tasks.TaskAction;

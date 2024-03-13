@@ -4,19 +4,19 @@ plugins {
     id 'com.gradle.plugin-publish' version '1.2.1'
 }
 
-group = 'com.elangsegara'
-version = '1.1.0'
+group = 'io.github.elangbayu'
+version = '1.2.0'
 
 gradlePlugin {
     plugins {
         xrayPlugin {
             website = 'https://github.com/elangbayu/xray-gradle'
             vcsUrl = 'https://github.com/elangbayu/xray-gradle'
-            id = 'com.elangsegara.xray-gradle'
+            id = 'xray-gradle'
             displayName = 'XRAY Gradle Plugin'
             description = 'The XRAY Gradle Plugin is a plugin that integrates with the XRAY Test Management tool to enable seamless test execution and reporting.'
             tags.addAll('xray', 'test', 'xray-gradle')
-            implementationClass = 'com.elangsegara.XrayPlugin'
+            implementationClass = 'io.github.elangbayu.XrayPlugin'
         }
     }
 }
