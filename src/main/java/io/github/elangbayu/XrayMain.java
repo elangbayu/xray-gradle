@@ -1,4 +1,4 @@
-package com.elangsegara;
+package io.github.elangbayu;
 
 import com.google.gson.JsonObject;
 import io.github.cdimascio.dotenv.Dotenv;

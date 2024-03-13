@@ -1,4 +1,4 @@
-package com.elangsegara;
+package io.github.elangbayu;
 
 import io.github.cdimascio.dotenv.Dotenv;
 import org.gradle.api.Project;
