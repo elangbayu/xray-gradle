@@ -25,6 +25,11 @@ To use the XRAY Gradle Plugin in your project, follow these steps:
 plugins {
   id("io.github.elangbayu.xray-gradle") version "1.2.0"
 }
+
+xray {
+    action = System.getProperty("action")
+    scenario = System.getProperty("scenario")
+}
 ```
 
 2. Configure the plugin with your XRAY credentials, create `.env` file:

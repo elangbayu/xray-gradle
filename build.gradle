@@ -12,7 +12,7 @@ gradlePlugin {
         xrayPlugin {
             website = 'https://github.com/elangbayu/xray-gradle'
             vcsUrl = 'https://github.com/elangbayu/xray-gradle'
-            id = 'xray-gradle'
+            id = 'io.github.elangbayu.xray-gradle'
             displayName = 'XRAY Gradle Plugin'
             description = 'The XRAY Gradle Plugin is a plugin that integrates with the XRAY Test Management tool to enable seamless test execution and reporting.'
             tags.addAll('xray', 'test', 'xray-gradle')
