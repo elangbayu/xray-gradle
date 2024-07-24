@@ -32,7 +32,7 @@ public class XrayMain {
       .writeTimeout(60, TimeUnit.SECONDS)
       .readTimeout(180, TimeUnit.SECONDS)
       .build();
-  private static final Dotenv env = Dotenv.load();
+  private static final Dotenv env = Dotenv.configure().ignoreIfMissing().load();
   private static final String XRAY_URL = env.get("XRAY_URL");
 
   /**
