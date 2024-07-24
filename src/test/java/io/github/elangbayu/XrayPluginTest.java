@@ -19,7 +19,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 public class XrayPluginTest {
-  private static final Dotenv env = Dotenv.load();
+  private static final Dotenv env = Dotenv.configure().ignoreIfMissing().load();
   @Rule
   public static TemporaryFolder temporaryFolder = new TemporaryFolder();
   private static Project project;
